@@ -18,11 +18,11 @@ export const App = () => {
       //<Captura2/>
       //<Captura3/>
       //<Captura4/>
-      <Captura5/>
+      //<Captura5/>
       //<Captura6/>
       //<Captura7/>
       //<Captura8/>
-      //<Captura9/>
+      <Captura9/>
   )
 }
 

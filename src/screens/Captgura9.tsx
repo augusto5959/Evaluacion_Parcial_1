@@ -15,9 +15,9 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor:'blue',
-        flexDirection:"column",
-        //alignItems:"flex-end",
-        justifyContent:"center"
+        flexDirection:"row",
+        //alignItems:"center",
+        justifyContent:'center'
     },
     boxRed:{
         //flex:1,
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
         borderWidth: 10,
         borderColor:'white',
         right:0,
+        alignSelf:"center"
     },
     boxPurple:{
         //flex:1,
@@ -34,14 +35,17 @@ const styles = StyleSheet.create({
         height:100,
         backgroundColor:'purple',
         borderWidth: 10,
-        borderColor:'white'
+        borderColor:'white',
+        alignSelf:"center",
+        top:50
     },
     boxOrange:{
         //flex:1,
         width:100,
-        height:'100%',
+        height:100,
         backgroundColor:'orange',
         borderWidth: 10,
-        borderColor:'white'
+        borderColor:'white',
+        alignSelf:"center",
     },
 });
